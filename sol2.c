@@ -87,8 +87,8 @@
 		fread(&test[i].apparatus, sizeof(test[i].apparatus), 1, Sample); //4
 		fread(&test[i].nest, sizeof(test[i].nest), 1, Sample); //1
 		fread(&test[i].fog, sizeof(test[i].fog), 1, Sample); //2
-        fread(&test[i].end, sizeof(test[i].end), 1, Sample); //4
-        fread(&test[i].person, sizeof(test[i].person), 1, Sample); //4
+       		fread(&test[i].end, sizeof(test[i].end), 1, Sample); //4
+        	fread(&test[i].person, sizeof(test[i].person), 1, Sample); //4
 		fread(&test[i].plastic, sizeof(test[i].plastic), 1, Sample); //4
 		fread(&test[i].jelly, sizeof(test[i].jelly), 1, Sample); //8
 		fread(&test[i].reading, sizeof(test[i].reading), 1, Sample);	//1	
